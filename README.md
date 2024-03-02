@@ -1,1 +1,1 @@
-# project-back
+# earth-project-js
