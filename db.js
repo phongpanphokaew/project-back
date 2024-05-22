@@ -7,6 +7,6 @@ require('dotenv').config()
    //  logging: console.log,
  //});
  console.log(process.env.DB_USERNAME);
-const dbUrl = `postgres://${process.env.DB_USERNAME}:${process.env.DB_PASSWORD}@node62198-project.proen.app.ruk-com.cloud/`;
+ const dbUrl = 'postgres://webadmin:LFDoae08517@node62198-project.proen.app.ruk-com.cloud/';
 const sequelize = new Sequelize(dbUrl);
 module.exports = { Sequelize, sequelize };
